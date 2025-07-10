@@ -1,0 +1,7 @@
+.button{
+    -fx-background-color: transparent;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Segoe Print", "Impact";
+    -fx-text-fill: #9cff22;
+}

@@ -1,0 +1,11 @@
+.button {
+    -fx-background-color: transparent;
+    -fx-font-size: 25px;
+    -fx-font-family: "Stencil", "Impact";
+    -fx-text-fill: #8a7373;
+}
+
+.button:hover {
+    -fx-font-size: 28px;
+    -fx-text-fill: #d9f279;
+}

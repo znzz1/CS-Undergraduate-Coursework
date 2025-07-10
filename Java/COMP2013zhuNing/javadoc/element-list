@@ -1,0 +1,6 @@
+module:com.ning.breakout
+com.ning.breakout
+com.ning.breakout.controller
+com.ning.breakout.model
+com.ning.breakout.view
+com.ning.breakout.view.graphics

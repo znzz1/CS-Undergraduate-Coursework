@@ -1,0 +1,11 @@
+.button {
+    -fx-background-color: transparent;
+    -fx-font-size: 24px;
+    -fx-font-family: "Times New Roman";
+    -fx-text-fill: #fff;
+}
+
+.button:hover {
+    -fx-font-size: 26px;
+    -fx-text-fill: #9cff22;
+}

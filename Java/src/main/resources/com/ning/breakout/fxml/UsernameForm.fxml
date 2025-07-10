@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="490.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ning.breakout.controller.UsernameFormController">
+    <ImageView fitHeight="490.0" fitWidth="600.0" opacity="0.9" pickOnBounds="true">
+        <Image url="@../image/background/form-bg.jpg" />
+    </ImageView>
+    <ImageView fx:id="m_CancelButton" fitHeight="60.0" fitWidth="60.0" layoutX="40.0" layoutY="30.0" onMouseClicked="#cancelUpload" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+        <cursor>
+            <Cursor fx:constant="HAND" />
+        </cursor>
+        <Image url="@../image/icons/back-arrow.jpg" />
+    </ImageView>
+    <ImageView fx:id="m_RankingListButton" fitHeight="60.0" fitWidth="60.0" layoutX="500.0" layoutY="30.0" onMouseClicked="#seeRankingList" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+        <cursor>
+            <Cursor fx:constant="HAND" />
+        </cursor>
+        <Image url="@../image/icons/next-arrow.jpg" />
+    </ImageView>
+    <Label layoutX="100.0" layoutY="170.0" prefHeight="43.0" prefWidth="400.0" text="Please enter your name:">
+        <font>
+          <Font name="Comic Sans MS Bold" size="33.0" />
+        </font>
+    </Label>
+    <TextField fx:id="nameInput" layoutX="160.0" layoutY="270.0" prefHeight="30.0" prefWidth="280.0">
+        <font>
+          <Font name="Times New Roman" size="20.0" />
+        </font>
+    </TextField>
+</AnchorPane>
